@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+<system>
+    <tab id="Juicy" translate="label" sortOrder="10">
+        <label>Juicy</label>
+    </tab>
+
+    <section id="Juicy_Geoip" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+        <label>Juicy Geoip</label>
+        <tab>Juicy</tab>
+        <resource>Juicy_Geoip::Juicy_Geoip</resource>
+        <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>GeoIP</label>
+            <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Enable Geoip</label>
+                <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                <comment>
+                    Comment for `Enable GeoIp` setting.
+                </comment>
+            </field>
+            <field id="block_label" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Block Label</label>
+            </field>
+        </group>
+    </section>
+
+</system>
+</config>
