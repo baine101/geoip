@@ -1,0 +1,13 @@
+<frontend>
+    <events>
+        <belvg_jquery_dispatch_before>
+            <observers>
+                <belvg_verpage_jquery_dispatch_before>
+                    <type>singleton</type>
+                    <class>Geoip/Observer</class>
+                    <method>geoipStart</method>
+                </belvg_verpage_jquery_dispatch_before>
+            </observers>
+        </belvg_jquery_dispatch_before>
+    </events>
+</frontend>
