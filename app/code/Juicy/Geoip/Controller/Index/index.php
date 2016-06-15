@@ -30,8 +30,8 @@ class index extends \Magento\Framework\App\Action\Action
 
     public function execute()
     {
-        $result = $this->resultPageFactory->create();
-        return $result;
+        //$result = $this->resultPageFactory->create();
+        //return $result;
     }
 
 }

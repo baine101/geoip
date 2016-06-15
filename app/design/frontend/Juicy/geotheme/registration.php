@@ -6,4 +6,4 @@
  * Time: 16:400
  */
 
-\Magento\Framework\Component\ComponentRegistrar::register(\Magento\Framework\Component\ComponentRegistrar::THEME, 'frontend/Juicy/Geoip', __DIR__);
+\Magento\Framework\Component\ComponentRegistrar::register(\Magento\Framework\Component\ComponentRegistrar::THEME, 'frontend/Juicy/geotheme', __DIR__);

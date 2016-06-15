@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="641e7b5c-7411-4198-a275-5efc527f6f1b" name="magento" url="http://213.219.37.79">
+        <fileTransfer host="213.219.37.79" port="22" rootFolder="/home/alex-magento2" accessType="SFTP" password="dfc8dfe8dff0dfcfdfc2dfc2dfebdfdadf99dffedffadfdedfcedfdfdff9dfd0dfeedfccdfdedfeddfc0dfdfdfcbdfebdfeddfdfdfefdfcbdffcdf9ddfc0dfe8" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
