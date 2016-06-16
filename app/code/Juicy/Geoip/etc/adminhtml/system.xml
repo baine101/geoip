@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/vendor/magento/module-config/etc/system_file.xsd">
 <system>
-    <tab id="Juicy" translate="label" sortOrder="10">
+    <tab id="Juicy" translate="label" sortOrder="0">
         <label>Juicy</label>
     </tab>
-
     <section id="Juicy_Geoip" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
         <label>Juicy Geoip</label>
         <tab>Juicy</tab>
@@ -23,6 +22,5 @@
             </field>
         </group>
     </section>
-
 </system>
 </config>

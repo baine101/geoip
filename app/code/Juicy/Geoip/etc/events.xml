@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/vendor/magento/framework/Event/etc/events.xsd">
-    <event name="store_load_before">
+    <event name="store_load_after">
         <observer name="Juicy_Geoip_store_load_before" instance="Juicy\Geoip\Observer\GeoObserver" />
     </event>
 </config>

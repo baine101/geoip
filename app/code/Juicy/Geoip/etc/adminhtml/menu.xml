@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
     <menu>
-        <add id="Juicy_Geoip::Geoip" title="Geoip ello" module="Juicy_Geoip" sortOrder="11" resource="Juicy_Geoip::geoip"/>
+        <add id="Juicy_Geoip::Geoip" title="Geo IP" module="Juicy_Geoip" sortOrder="11" resource="Juicy_Geoip::geoip"/>
+        <children>
+            <example translate="title" module="Geoip">
+                <title>store</title>
+                <sort_order>1</sort_order>
+            </example>
+        </children>
     </menu>
 </config>
