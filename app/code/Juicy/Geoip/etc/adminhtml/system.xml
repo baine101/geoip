@@ -5,20 +5,29 @@
         <label>Juicy</label>
     </tab>
     <section id="Juicy_Geoip" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-        <label>Juicy Geoip</label>
+        <label>Geoip</label>
         <tab>Juicy</tab>
-        <resource>Juicy_Geoip::Juicy_Geoip</resource>
-        <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+        <resource>Juicy_Geoip::Geoip</resource>
+        <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>GeoIP</label>
             <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Enable Geoip</label>
                 <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 <comment>
-                    Comment for `Enable GeoIp` setting.
+                    Enable GeoIp.
                 </comment>
             </field>
-            <field id="block_label" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Block Label</label>
+            <field id="store" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Store</label>
+                <source_model>Juicy\Geoip\Model\Config\Source\store</source_model>
+                <comment>
+                    Select Store.
+                </comment>
+            </field>
+            <field id="theme" translate="label comment" sortOrder="30" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Origin</label>
+                <comment>Country of Origin</comment>
+                <source_model>Juicy\Geoip\Model\Config\Source\origin</source_model>
             </field>
         </group>
     </section>

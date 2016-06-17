@@ -7,6 +7,7 @@ use Magento\Framework\Event\ObserverInterface;
 use Magento\TestFramework\Event\Magento;
 use Juicy\Geoip\Controller\Index\index as index;
 
+
 class GeoObserver implements ObserverInterface
 {
     protected $_objectManager;
@@ -19,15 +20,34 @@ class GeoObserver implements ObserverInterface
         $this->_response = $response;
         $this->_geoipData = $geoipData;
         $this->_registry = $registry;
+
     }
 
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
-        $hostname = $_SERVER['REMOTE_ADDR'];
+
+$hostname = $_SERVER['REMOTE_ADDR'];
         $countryCode = $this->getCountryCode($hostname);
 
-        //echo $countryCode;
+        switch ($countryCode) {
 
+            case "FR" : {
+                //header('Location: http://alex-magento2-fr.tmpsvr5.co.uk/');
+                break;
+            }
+            case "IT" :{
+                //header('Location: http://alex-magento2-it.tmpsvr5.co.uk/');
+                break;
+            }
+            case "GB" :{
+                //header('Location: http://alex-magento2.tmpsvr5.co.uk/');
+                break;
+            }
+            default :{
+            }
+        }
+
+       // echo $countryCode;
     }
 
 
