@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
     <menu>
-        <add id="Juicy_Geoip::Geoip" title="Juicy" module="Juicy_Geoip" sortOrder="100" resource="Juicy_Geoip::geoip" />
-        <add id="Juicy_Geoip::geoip" title="Geo Ip" module="Juicy_Geoip" sortOrder="0" parent="Juicy_Geoip::Geoip" action="Geoip/Controller/Index" resource="Juicy_Geoip::geoip"/>
+        <add id="Juicy_Geoip::Geoip" title="Juicy" module="Juicy_Geoip" sortOrder="100" resource="Juicy_Geoip::Geoip" />
+        <add id="Juicy_Geoip::Sub" title="Geo Ip" module="Juicy_Geoip" sortOrder="0" parent="Juicy_Geoip::Geoip" action="Juicy/Geoip/Controller/Index" resource="Juicy_Geoip::ConPage"/>
     </menu>
 </config>

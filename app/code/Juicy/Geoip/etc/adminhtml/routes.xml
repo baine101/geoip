@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/vendor/magento/framework/App/etc/routes.xsd">
     <router id="admin">
         <route id="Juicy_Geoip" frontName="Juicy_Geoip">
-            <module name="Juicy_Geoip"/>
+            <module name="Juicy_Geoip" before="Magento_Backend"/>
         </route>
     </router>
 </config>

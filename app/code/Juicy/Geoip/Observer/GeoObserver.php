@@ -26,8 +26,10 @@ class GeoObserver implements ObserverInterface
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
 
-$hostname = $_SERVER['REMOTE_ADDR'];
+        $hostname = $_SERVER['REMOTE_ADDR'];
         $countryCode = $this->getCountryCode($hostname);
+
+
 
         switch ($countryCode) {
 

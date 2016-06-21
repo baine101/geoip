@@ -8,8 +8,8 @@
         <label>Geoip</label>
         <tab>Juicy</tab>
         <resource>Juicy_Geoip::Geoip</resource>
-        <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-            <label>GeoIP</label>
+        <group id="enable" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Enable</label>
             <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Enable Geoip</label>
                 <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -17,17 +17,18 @@
                     Enable GeoIp.
                 </comment>
             </field>
-            <field id="store" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Store</label>
-                <source_model>Juicy\Geoip\Model\Config\Source\store</source_model>
+        </group>
+
+
+        <group id="CountryTable" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" >
+            <label>Settings</label>
+            <field id="settings" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Enable Geoip</label>
+                <frontend_model>Juicy\Geoip\Block\Adminhtml\GeoTable</frontend_model>
+                <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
                 <comment>
-                    Select Store.
+                Set GeoIp Options
                 </comment>
-            </field>
-            <field id="theme" translate="label comment" sortOrder="30" type="select" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Origin</label>
-                <comment>Country of Origin</comment>
-                <source_model>Juicy\Geoip\Model\Config\Source\origin</source_model>
             </field>
         </group>
     </section>

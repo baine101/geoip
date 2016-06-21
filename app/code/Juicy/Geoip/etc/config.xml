@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<global>
+    <blocks>
+    <test>
+        <class>Geoip_Test_Block</class>
+    </test>
+</blocks>
+</global>

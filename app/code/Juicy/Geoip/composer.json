@@ -15,7 +15,7 @@
   ],
   "type": "magento2-module",
   "autoload": {
-      "psr-4": { "Juicy\\Geoip\\": "" },
+      "psr-4": { "Juicy\\Geoip\\": ""},
       "files": [ "registration.php" ]
   }
 }
