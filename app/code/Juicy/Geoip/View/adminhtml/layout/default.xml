@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Juicy\Geoip\Block\Adminhtml\GeoTable" name="geoip" template=".phtml">
+                <arguments>
+                    <argument name="id" xsi:type="string">testGrid</argument>
+                    <argument name="dataSource" xsi:type="object">Juicy\Geoip\Model\Config\Source\store</argument>
+                    <argument name="default_sort" xsi:type="string">id</argument>
+                    <argument name="default_dir" xsi:type="string">desc</argument>
+                    <argument name="grid_url" xsi:type="url" path="*/*/grid"><param name="_current">1</param></argument>
+                    <argument name="default_filter" xsi:type="array">
+                        <item name="status" xsi:type="string">1</item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

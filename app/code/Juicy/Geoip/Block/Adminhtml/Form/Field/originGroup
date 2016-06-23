@@ -1,0 +1,19 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+namespace Juicy\Geoip\Block\Adminhtml\Form\Field;
+/**
+ * HTML select element block with customer groups options
+ */
+class originGroup extends \Magento\Config\Block\System\Config\Form\Field\FieldArray\AbstractFieldArray
+{
+    public function toHtml()
+    {
+
+        return "fooBar";
+
+    }
+}

@@ -18,13 +18,11 @@
                 </comment>
             </field>
         </group>
-
-
-        <group id="CountryTable" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" >
+        <group id="CountryTable" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" >
             <label>Settings</label>
-            <field id="settings" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Enable Geoip</label>
-                <frontend_model>Juicy\Geoip\Block\Adminhtml\GeoTable</frontend_model>
+            <field id="settings" translate="label comment" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Store &amp; language Settings</label>
+                <frontend_model>Juicy\Geoip\Block\Adminhtml\Geotable</frontend_model>
                 <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
                 <comment>
                 Set GeoIp Options
