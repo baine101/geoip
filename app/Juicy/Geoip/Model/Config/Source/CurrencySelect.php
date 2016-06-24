@@ -7,7 +7,7 @@
  */
 namespace Juicy\Geoip\Model\Config\Source;
 
-class URL implements \Magento\Framework\Option\ArrayInterface
+class CurrencySelect implements \Magento\Framework\Option\ArrayInterface
 {
 
     /**

@@ -7,7 +7,7 @@
  */
 namespace Juicy\Geoip\Model\Config\Source;
 
-class store implements \Magento\Framework\Option\ArrayInterface
+class StoreSelect implements \Magento\Framework\Option\ArrayInterface
 {
     /**
      * @var array
