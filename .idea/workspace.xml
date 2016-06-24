@@ -2,16 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cd9798a-c732-4b0b-965f-fb481b39e658" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Form/Field/originGroup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/layout/default.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Test/edit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/layout/geoip_grid.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/config.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Block/Adminhtml/Form/Field/CurrencyGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Block/Adminhtml/Form/Field/OriginGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Block/Adminhtml/Form/Field/StoreGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Block/Adminhtml/Geotable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Model/Config/Source/OriginSelect.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Form/Field/originGroup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Geotable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Test/Edit/form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Controller/ConPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Controller/adminhtml/Geoip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Controller/adminhtml/geoip/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Helper/Data.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/URL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/origin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/store.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/ResourceModel/geoip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/ResourceModel/geoip/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/geoip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Observer/GeoObserver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/layout/default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/layout/geoip_geoip_index.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/templates/view.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/acl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/routes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/system.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/events.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/frontend/routes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/module.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/i18n/delme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/registration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/setup/InstallSchema.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Test/Edit/form.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Block/Adminhtml/Test/Edit/form.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Controller/ConPage.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Controller/ConPage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Controller/adminhtml/Geoip.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Controller/adminhtml/Geoip.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Controller/adminhtml/geoip/index.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Controller/adminhtml/geoip/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Helper/Data.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Helper/Data.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/URL.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Model/Config/Source/CurrencySelect.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/store.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Model/Config/Source/StoreSelect.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/ResourceModel/geoip.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Model/ResourceModel/geoip.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/ResourceModel/geoip/Collection.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Model/ResourceModel/geoip/Collection.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/geoip.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Model/geoip.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Observer/GeoObserver.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/Observer/GeoObserver.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/layout/default.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/View/adminhtml/layout/default.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/layout/geoip_geoip_index.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/View/adminhtml/layout/geoip_geoip_index.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/View/adminhtml/templates/view.phtml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/View/adminhtml/templates/view.phtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/composer.json" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/config.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/config.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/acl.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/acl.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/menu.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/adminhtml/menu.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/routes.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/adminhtml/routes.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/system.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/adminhtml/system.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/events.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/events.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/frontend/routes.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/frontend/routes.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/module.xml" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/etc/module.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/i18n/delme" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/i18n/delme" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/registration.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/registration.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/setup/InstallSchema.php" afterPath="$PROJECT_DIR$/app/Juicy/Geoip/setup/InstallSchema.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Geotable.php" afterPath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Geotable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Test/Edit/form.php" afterPath="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Adminhtml/Test/Edit/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/store.php" afterPath="$PROJECT_DIR$/app/code/Juicy/Geoip/Model/Config/Source/store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/system.xml" afterPath="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/adminhtml/system.xml" />
     </list>
     <ignored path="magento 2 GeoIp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +85,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="acl.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/Juicy/Geoip/etc/acl.xml">
+        <entry file="file://$PROJECT_DIR$/app/Juicy/Geoip/etc/acl.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -146,24 +197,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento 2 GeoIp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento 2 GeoIp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Juicy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -184,10 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -200,6 +229,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento 2 GeoIp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento 2 GeoIp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,16 +259,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Documents\projects\magento 2 GeoIp\app" />
+      <recent name="$PROJECT_DIR$/app/code/Juicy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\Documents\projects\magento 2 GeoIp\app" />
       <recent name="$PROJECT_DIR$/app/code/Juicy/Geoip/Observer" />
       <recent name="$PROJECT_DIR$/app/code/Juicy/Geoip" />
       <recent name="$PROJECT_DIR$/app/code/Juicy/Geoip/Block/Frontend" />
       <recent name="$PROJECT_DIR$/app/code/Juicy/Geoip/etc/frontend" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\Documents\projects\magento 2 GeoIp\app" />
-      <recent name="$PROJECT_DIR$/app/code/Juicy" />
     </key>
   </component>
   <component name="RunManager">
@@ -292,7 +335,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1672" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2422619" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -356,7 +399,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/Juicy/Geoip/etc/acl.xml">
+    <entry file="file://$PROJECT_DIR$/app/Juicy/Geoip/etc/acl.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
